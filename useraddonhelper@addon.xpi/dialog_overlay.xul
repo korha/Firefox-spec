@@ -1,0 +1,18 @@
+<?xml version="1.0"?><overlay id="this" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"><dialog id="unknownContentType"><script type="application/x-javascript">
+try{addEventListener("load",function(){
+var btn=document.createElement("button");
+btn.setAttribute("id","copydirectlink-button");
+btn.setAttribute("label","Copy Direct Link");
+btn.setAttribute("class","dialog-button");
+btn.setAttribute("oncommand", "var u=dialog.mLauncher.source.spec;document.documentElement.getButton('cancel').doCommand();if(!u.startsWith('https://direct.invalid/'))Components.classes['@mozilla.org/widget/clipboardhelper;1'].getService(Components.interfaces.nsIClipboardHelper).copyString('https://direct.invalid/'+u);");
+var newBtn=document.documentElement.getButton("accept");
+newBtn.parentNode.insertBefore(btn,newBtn);
+btn=document.createElement("button");
+btn.setAttribute("id","copylink-button");
+btn.setAttribute("label","Copy Link");
+btn.setAttribute("class","dialog-button");
+btn.setAttribute("oncommand", "var u=dialog.mLauncher.source.spec;document.documentElement.getButton('cancel').doCommand();if(!u.startsWith('https://direct.invalid/'))Components.classes['@mozilla.org/widget/clipboardhelper;1'].getService(Components.interfaces.nsIClipboardHelper).copyString(u);");
+newBtn=document.documentElement.getButton("accept");
+newBtn.parentNode.insertBefore(btn,newBtn);
+},true);}catch(e){}
+</script></dialog></overlay>

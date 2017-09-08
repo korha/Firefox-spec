@@ -1,0 +1,26 @@
+content useraddonhelper chrome/
+overlay chrome://browser/content/browser.xul overlay.xul
+overlay chrome://mozapps/content/downloads/unknownContentType.xul dialog_overlay.xul
+
+override chrome://browser/skin/feeds/audioFeedIcon.png chrome://browser/skin/feeds/feedIcon.png
+override chrome://browser/skin/feeds/audioFeedIcon16.png chrome://browser/skin/feeds/feedIcon16.png
+override chrome://browser/skin/feeds/videoFeedIcon.png chrome://browser/skin/feeds/feedIcon.png
+override chrome://browser/skin/feeds/videoFeedIcon16.png chrome://browser/skin/feeds/feedIcon16.png
+override chrome://browser/skin/page-livemarks.png chrome://browser/skin/feeds/feedIcon16.png
+override chrome://global/skin/arrow/arrow-lft-hov.gif chrome://global/skin/arrow/arrow-lft.gif
+override chrome://global/skin/arrow/arrow-rit-hov.gif chrome://global/skin/arrow/arrow-rit.gif
+override chrome://global/skin/tree/twisty.svg#clsd chrome://global/skin/tree/twisty-Vista78.svg#clsd
+override chrome://global/skin/tree/twisty.svg#clsd-hover chrome://global/skin/tree/twisty-Vista78.svg#clsd-hover
+override chrome://global/skin/tree/twisty.svg#clsd-hover-rtl chrome://global/skin/tree/twisty-Vista78.svg#clsd-hover-rtl
+override chrome://global/skin/tree/twisty.svg#clsd-rtl chrome://global/skin/tree/twisty-Vista78.svg#clsd-rtl
+override chrome://global/skin/tree/twisty.svg#open chrome://global/skin/tree/twisty-Vista78.svg#open
+override chrome://global/skin/tree/twisty.svg#open-hover chrome://global/skin/tree/twisty-Vista78.svg#open-hover
+override chrome://global/skin/tree/twisty.svg#open-hover-rtl chrome://global/skin/tree/twisty-Vista78.svg#open-hover-rtl
+override chrome://global/skin/tree/twisty.svg#open-rtl chrome://global/skin/tree/twisty-Vista78.svg#open-rtl
+override chrome://mozapps/skin/extensions/category-dictionaries.png chrome://mozapps/skin/extensions/dictionaryGeneric.png
+override chrome://mozapps/skin/extensions/category-experiments.png chrome://mozapps/skin/extensions/experimentGeneric.png
+override chrome://mozapps/skin/extensions/category-extensions.svg chrome://mozapps/skin/extensions/extensionGeneric.svg
+override chrome://mozapps/skin/extensions/category-languages.png chrome://mozapps/skin/extensions/localeGeneric.png
+override chrome://mozapps/skin/extensions/category-themes.png chrome://mozapps/skin/extensions/themeGeneric.png
+override chrome://mozapps/skin/plugins/notifyPluginCrashed.png chrome://mozapps/skin/plugins/pluginGeneric-16.png
+override chrome://mozapps/skin/plugins/notifyPluginGeneric.png chrome://mozapps/skin/plugins/pluginGeneric-16.png

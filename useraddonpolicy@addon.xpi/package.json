@@ -1,0 +1,10 @@
+{
+  "engines": {
+    "firefox": ">= 52.0",
+    "fennec": ">= 52.0"
+  },
+  "permissions": {
+    "private-browsing": true,
+    "multiprocess": true
+  }
+}
